@@ -1,0 +1,3 @@
+main: dev.kyriji.spigot.DependencyLoader
+name: TritonDependencies
+version: 1.0.0
