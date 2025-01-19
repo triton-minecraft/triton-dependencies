@@ -8,6 +8,7 @@ version = ""
 
 repositories {
     mavenCentral()
+    mavenLocal()
     maven("https://repo.hypera.dev/snapshots/")
     maven("https://jitpack.io")
 }
@@ -21,6 +22,8 @@ dependencies {
     implementation("org.mongodb:mongodb-driver-legacy:4.5.0")
     implementation("com.zaxxer:HikariCP:4.0.3")
     implementation("org.mariadb.jdbc:mariadb-java-client:3.3.2")
+
+    implementation("dev.kyriji:triton-stom:0.0.0")
 }
 
 
