@@ -11,7 +11,7 @@ repositories {
 }
 
 dependencies {
-    implementation("com.github.big-minecraft:bmc-api:3aec2ac536")
+    implementation("dev.kyriji:bmc-api:0.0.0")
     implementation("org.mongodb:mongodb-driver-legacy:4.5.0")
     implementation("ch.qos.logback:logback-classic:1.5.3")
     implementation("org.mongodb:mongodb-driver-legacy:4.5.0")
