@@ -9,6 +9,7 @@ version = ""
 
 repositories {
     mavenCentral()
+    mavenLocal()
     maven("https://repo.papermc.io/repository/maven-public/")
     maven("https://jitpack.io")
 

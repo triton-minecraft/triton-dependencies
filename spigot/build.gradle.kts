@@ -8,6 +8,7 @@ version = ""
 
 repositories {
     mavenCentral()
+    mavenLocal()
     maven("https://repo.hypera.dev/snapshots/")
     maven("https://jitpack.io")
     maven("https://hub.spigotmc.org/nexus/content/repositories/snapshots/")

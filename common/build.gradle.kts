@@ -6,6 +6,7 @@ group = "dev.kyriji"
 
 repositories {
     mavenCentral()
+    mavenLocal()
     maven("https://repo.hypera.dev/snapshots/")
     maven("https://jitpack.io")
 }
