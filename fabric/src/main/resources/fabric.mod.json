@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "triton-dependencies-fabric",
+  "version": "${version}",
+  "name": "TritonDependenciesFabric",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/fabric/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "dev.kyriji.fabric.DependencyLoader"
+    ]
+  },
+  "mixins": [
+    "triton-dependencies-fabric.mixins.json",
+    {
+      "config": "triton-dependencies-fabric.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
