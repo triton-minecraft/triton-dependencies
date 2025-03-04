@@ -1,6 +1,6 @@
 plugins {
     id("java")
-    id("com.github.johnrengelman.shadow") version "7.0.0"
+    id("com.gradleup.shadow") version "8.3.5"
 }
 
 group = "dev.kyriji"
@@ -8,10 +8,10 @@ version = ""
 
 repositories {
     mavenCentral()
+    mavenLocal()
 }
 
 dependencies {
-
 }
 
 java {
